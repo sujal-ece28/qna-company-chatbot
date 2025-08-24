@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Docs Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 Internal Docs Assistant</h1>
+            <p>Ask me about company policies, procedures, and technical guidelines!</p>
+        </div>
+        
+        <div class="chat-container" id="chatContainer">
+            <div class="message bot-message">
+                <div class="message-content">
+                    <strong>Assistant:</strong> 👋 Hey there! I'm your friendly internal docs assistant! I can help you find information about:
+                    <ul>
+                        <li>💼 <strong>Company Policies</strong>: Work hours, benefits, refund policies</li>
+                        <li>🎨 <strong>Design Assets</strong>: Logos, brand guidelines, design requests</li>
+                        <li>🚀 <strong>Development</strong>: Code deployment, APIs, environment setup</li>
+                        <li>📋 <strong>Project Management</strong>: Agile workflows, Jira, sprints</li>
+                        <li>👋 <strong>Onboarding</strong>: New hire setup, training, equipment</li>
+                        <li>🔒 <strong>Security</strong>: IT policies, VPN access, compliance</li>
+                    </ul>
+                    💡 Try asking: "What's our refund policy?" or "How do I deploy code?"
+                </div>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Ask me anything about company docs..." maxlength="500">
+            <button id="sendButton" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
