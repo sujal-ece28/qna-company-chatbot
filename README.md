@@ -13,15 +13,21 @@ A friendly chatbot that helps employees find information about company policies 
 
 ## Quick Start
 
-1. **Run the AI chatbot:**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sujal-ece28/qna-company-chatbot.git
+   cd qna-company-chatbot
+   ```
+
+2. **Start the chatbot server:**
    ```bash
    python ai_chatbot.py
    ```
-   Or double-click `run.bat`
-
-2. **Open browser:** http://localhost:8080
+   Or double-click `run.bat` on Windows
 
 3. **Start chatting!** Ask about company policies, benefits, work hours, etc.
+
+**Note:** Make sure Python is installed and the server is running.
 
 ## File Structure
 ```

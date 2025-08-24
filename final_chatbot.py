@@ -80,5 +80,5 @@ class Handler(BaseHTTPRequestHandler):
             self.send_error(404)
 
 if __name__ == "__main__":
-    print("🤖 Starting Simple Chatbot on http://localhost:8080")
+    print("Starting Simple Chatbot on http://localhost:8080")
     HTTPServer(('localhost', 8080), Handler).serve_forever()

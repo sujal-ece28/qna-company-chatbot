@@ -152,6 +152,6 @@ class Handler(BaseHTTPRequestHandler):
             self.send_error(404)
 
 if __name__ == "__main__":
-    print("🤖 Starting AI-Powered Chatbot on http://localhost:8080")
-    print("🧠 Using AI for intelligent responses with company context")
-    HTTPServer(('localhost', 8080), Handler).serve_forever()
+    print("Starting AI-Powered Chatbot on http://localhost:8080")
+    print("Using AI for intelligent responses with company context")
+    HTTPServer(('localhost', 8080), Handler).serve_forever()e_forever()
