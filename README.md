@@ -1,4 +1,6 @@
-# Internal Docs Assistant
+# QNA Company Chatbot
+
+For AI Agent Hackathon (Product Space)
 
 A friendly chatbot that helps employees find information about company policies and procedures.
 
